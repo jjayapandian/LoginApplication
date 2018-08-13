@@ -3,7 +3,7 @@
     String userName = request.getParameter("uname");    
     String password = request.getParameter("password");
     Class.forName("com.mysql.jdbc.Driver");
-    Connection con = DriverManager.getConnection("jdbc:mysql://10.142.0.9:3306/jwt",
+    Connection con = DriverManager.getConnection("jdbc:mysql://10.142.0.10:3306/jwt",
             "root", "root");
     Statement st = con.createStatement();
     ResultSet rs;
