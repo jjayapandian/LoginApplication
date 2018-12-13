@@ -5,7 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Example</title>
     </head>
-    <body bgcolor="silver">
+    <body bgcolor="blue">
         <form method="post" action="login.jsp">
             <center>
             <table border="0" width="30%" cellpadding="3">
@@ -28,7 +28,7 @@
                         <td><input type="reset" value="Reset" /></td>
                     </tr>
                     <tr>
-                        <td colspan="2">New User <a href="register.jsp">Register Here</a></td>
+                        <td colspan="2">New User <a href="register.jsp">Please Register Here</a></td>
                     </tr>
                 </tbody>
             </table>
